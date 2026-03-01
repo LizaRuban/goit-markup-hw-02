@@ -76,6 +76,7 @@ h1 {
   background-color: #4d5ae5;
   font-size: 24px;
   line-height: 1.5;
+  cursor: pointer;
 }
 
 /* main: 'our team', 'our portfolio' sections */
@@ -103,4 +104,12 @@ footer p {
 
 footer .web-studio {
   color: #f4f4fd;
+}
+
+/*interaction with the page*/
+a:hover,
+a:focus,
+.order-button:hover,
+.order-button:focus {
+  color: navy;
 }
