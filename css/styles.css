@@ -40,7 +40,7 @@ header .web-studio {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #333333;
+  color: #2e2f42;
 }
 
 .list-address li a {
@@ -61,6 +61,7 @@ header .web-studio {
 h1 {
   font-size: 56px;
   line-height: 1.071428;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -68,7 +69,7 @@ h1 {
   color: white;
   background-color: #4d5ae5;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -81,18 +82,27 @@ h1 {
 
 /*'our-feature' section*/
 .our-features h3 {
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 1.7142857;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.our-features p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 /* main: 'our team', 'our portfolio' sections */
 .our-team h2,
-.our-team h3,
-.our-team p,
 .our-portfio h2 {
   text-align: center;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.111111111111;
+  color: #2e2f42;
 }
 
 .our-team {
@@ -113,10 +123,11 @@ h1 {
 .our-team-list li h3,
 .our-portfolio-list li h3 {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 
 .our-team-list li p,
@@ -125,6 +136,7 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 /* footer */
@@ -136,6 +148,7 @@ footer p {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
 
 footer .web-studio {
