@@ -16,27 +16,6 @@ li a {
   text-decoration: none;
 }
 
-.our-team-list li p,
-.our-portfolio-list li p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-}
-
-.our-team-list li a,
-.our-portfolio-list li a {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #2e2f42;
-}
-
-.our-team-list li h3,
-.our-portfolio-list li h3 {
-  font-size: 14px;
-  line-height: 1.7142857;
-  color: #434455;
-}
-
 /* header */
 .web-studio {
   text-transform: uppercase;
@@ -122,6 +101,30 @@ h1 {
 
 .our-team .our-team-list li {
   background-color: white;
+}
+
+.our-team-list li a,
+.our-portfolio-list li a {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.our-team-list li h3,
+.our-portfolio-list li h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.our-team-list li p,
+.our-portfolio-list li p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* footer */
