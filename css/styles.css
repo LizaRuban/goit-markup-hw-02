@@ -4,16 +4,9 @@ body {
   color: #2e2f42;
   background-color: white;
 }
-h2 {
-  font-size: 36px;
-  line-height: 1.1111111;
-}
+
 ul {
   list-style-type: none;
-}
-
-li a {
-  text-decoration: none;
 }
 
 /* header */
@@ -27,7 +20,7 @@ li a {
   letter-spacing: 0.03em;
 }
 
-header .web-studio {
+.header .web-studio {
   color: #2e2f42;
 }
 
@@ -35,21 +28,23 @@ header .web-studio {
   color: #4d5ae5;
 }
 
-.navigation-list li a {
+.navigation-list-a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 
-.list-address li a {
+.list-address-a {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  text-decoration: none;
 }
 
 /* main: 'hero' section */
@@ -58,7 +53,7 @@ header .web-studio {
   color: white;
 }
 
-h1 {
+.hero-header-1 {
   font-size: 56px;
   line-height: 1.071428;
   letter-spacing: 0.02em;
@@ -80,8 +75,8 @@ h1 {
   background-color: #404bbf;
 }
 
-/*'our-feature' section*/
-.our-features h3 {
+/* main: 'our-features', 'our team', 'our portfolio' sections */
+.our-features-h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -96,14 +91,16 @@ h1 {
   color: #434455;
 }
 
-/* main: 'our team', 'our portfolio' sections */
-.our-team h2,
-.our-portfio h2 {
+.our-features-h2,
+.our-team-h2,
+.our-portfio-h2 {
   text-align: center;
   font-size: 36px;
   letter-spacing: 0.02em;
   line-height: 1.111111111111;
   color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.1111111;
 }
 
 .our-team {
@@ -121,8 +118,8 @@ h1 {
   color: #2e2f42;
 }
 
-.our-team-list li h3,
-.our-portfolio-list li h3 {
+.our-portfio-h3,
+.our-team-h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -130,37 +127,37 @@ h1 {
   color: #2e2f42;
 }
 
-.our-team-list li p,
-.our-portfolio-list li p {
+.our-team-p,
+.our-portfio-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.our-team-list li h3,
-.our-team-list li p {
+.our-team-h3,
+.our-team-p {
   text-align: center;
 }
 
-.our-portfolio-list li h3,
-.our-portfolio-list li p {
+.our-portfio-h3,
+.our-portfio-p {
   text-align: left;
 }
 
 /* footer */
-footer {
+.footer {
   background-color: #2e2f42;
 }
 
-footer p {
+.footer-p {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
 
-footer .web-studio {
+.footer .web-studio {
   color: #f4f4fd;
 }
 
