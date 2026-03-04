@@ -1,6 +1,6 @@
 /* general */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   color: #2e2f42;
   background-color: white;
 }
@@ -30,11 +30,6 @@ li a {
   color: #2e2f42;
 }
 
-.list-address li address a {
-  font-style: normal;
-  color: #434455;
-}
-
 .our-team-list li h3,
 .our-portfolio-list li h3 {
   font-size: 14px;
@@ -49,7 +44,8 @@ li a {
   font-weight: bold;
   font-size: 18px;
   line-height: 1.1666666;
-  font-family: Roboto;
+  font-family: Raleway;
+  letter-spacing: 0.03em;
 }
 
 header .web-studio {
@@ -60,13 +56,25 @@ header .web-studio {
   color: #4d5ae5;
 }
 
-header {
+.navigation-list li a {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #333333;
 }
 
-/* main: 'order' section */
-.order-section {
+.list-address li a {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+/* main: 'hero' section */
+.hero-section {
   background-color: #2e2f42;
   color: white;
 }
@@ -76,12 +84,28 @@ h1 {
   line-height: 1.071428;
   text-align: center;
 }
+
 .order-button {
   color: white;
   background-color: #4d5ae5;
-  font-size: 24px;
+  font-size: 16px;
+  font-weight: bold;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+}
+
+/*'our-feature' section*/
+.our-features h3 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.7142857;
+  letter-spacing: 0.02em;
 }
 
 /* main: 'our team', 'our portfolio' sections */
@@ -117,8 +141,6 @@ footer .web-studio {
 
 /*interaction with the page*/
 a:hover,
-a:focus,
-.order-button:hover,
-.order-button:focus {
+a:focus {
   color: #404bbf;
 }
