@@ -1,7 +1,8 @@
 /* general */
 body {
-  font-family: 'Roboto', 'Raleway', 'Verdana', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #2e2f42;
+  background-color: white;
 }
 h2 {
   font-size: 36px;
@@ -48,6 +49,7 @@ li a {
   font-weight: bold;
   font-size: 18px;
   line-height: 1.1666666;
+  font-family: Roboto;
 }
 
 header .web-studio {
