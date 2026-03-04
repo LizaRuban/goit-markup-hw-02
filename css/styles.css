@@ -93,6 +93,7 @@ h1 {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* main: 'our team', 'our portfolio' sections */
@@ -127,7 +128,6 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
 }
 
 .our-team-list li p,
@@ -136,7 +136,16 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.our-team-list li h3,
+.our-team-list li p {
   text-align: center;
+}
+
+.our-portfolio-list li h3,
+.our-portfolio-list li p {
+  text-align: left;
 }
 
 /* footer */
